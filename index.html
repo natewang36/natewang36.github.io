@@ -1,33 +1,86 @@
 <!doctype html>
 <html>
-<style>
-body {
+<!-- Styling
+h1 = Big Titles
+h2 = Sub Titles
+h3 = Basic Content
+h6 = Faint Subscript
 
-  /* background-image: url("images/blah.png"); */
-  background-repeat: no-repeat;
-  height: 100px;
-  background-color: lightgray;
-  background-size: cover;
-  font-size: 50px;
-  /* font-size: 10vw; */
-  font-family: Times, sans-serif;
-  font-style: normal;
-  text-align: center;
-  /* text-shadow: 9px 8px gray; */
-}
-</style>
+
+
+Here's where the real stuff starts -->
+<head>
+  <link href = "style.css" rel = "stylesheet" type = "text/css">
+</head>
+
 <body>
-Hello! I'm Nathan Wang.
-</body>
+<div id ="titlebox-desc">
+  <div id = "mainhello-desc" class = 'text'>
+    <h1>Hey! I'm Nathan Wang</h1>
+    <br><a class="emailbutton" href="mailto:natewang36@gmail.com">Contact Me</a>
+  </div>
+</div>
+<div id ="bodywhite-desc">
+  <div id ="quickbio-desc">
+    <h2>I am a student currently attending Haverford College. Career paths I am considering are engineering, design, and video production. I enjoy coding and producing electronic music in my free time.</h2>
+  </div>
+      <!-- TABS -->
+        <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'Makerspace Creations')" id="defaultOpen">Makerspace Creations</button>
+        <button class="tablinks" onclick="openCity(event, 'Graphic Designs')">Graphic Designs</button>
+        <button class="tablinks" onclick="openCity(event, 'Videos Produced')">Videos Produced</button>
+        <button class="tablinks" onclick="openCity(event, 'Coding Projects')">Coding Projects</button>
+        <button class="tablinks" onclick="openCity(event, 'Music')">Music</button>
+      </div>
 
-<style>
-body1 {
-  background-color:teal;
-}
-</style>
-<p><body1>
-Hello!
-</body1><p>
-<p>
-<img src="images/placeholderme.jpeg" style="width:300px;/*transform:rotate(90deg)*/";>
-</p>
+      <div id="Makerspace Creations" class="tabcontent">
+        <h3>Makerspace Creations</h3>
+        <p>temp</p>
+      </div>
+
+      <div id="Graphic Designs" class="tabcontent">
+        <h3>Graphic Designs</h3>
+        <p>temp</p>
+      </div>
+
+      <div id="Videos Produced" class="tabcontent">
+        <h3>Videos Produced</h3>
+        <p>temp</p>
+      </div>
+
+      <div id="Coding Projects" class="tabcontent">
+        <h3>Coding Projects</h3>
+        <p>temp</p>
+      </div>
+
+      <div id="Music" class="tabcontent">
+        <h3>Music I Produced</h3>
+        <p>temp</p>
+      </div>
+
+        <script>
+        function openCity(evt, cityName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(cityName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+
+        // default open first tab
+        document.getElementById("defaultOpen").click();
+        </script>
+
+
+</div>
+
+
+
+</body>
+</html>
