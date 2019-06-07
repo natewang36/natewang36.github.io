@@ -18,15 +18,35 @@
       font-weight: 5;
       font-size: 20px;
   }
+  h3 {
+      color: black;
+      text-align: center;
+      font-family: "Trebuchet MS";
+      font-weight: bold;
+      font-size: 30px;
+  }
+  p {
+      color: black;
+      text-align: left;
+      font-family: "Trebuchet MS";
+      font-weight: normal;
+      font-size: 20px;
+      margin: 20px 20px 20px 20px;
+  }
 
   .text{
     position: static;
     text-align: center;
   }
 
+  .writing{
+    position: static;
+    text-align: left;
+  }
+
   #titlebox-desc{
     background: black;
-    border: 3px solid white;
+    border: 6px solid white;
     max-width: 100%;
     position: static;
     margin: 50px 50px auto;
@@ -54,7 +74,7 @@
   }
 
   #bodywhite-desc{
-    border: 3px solid black;
+    border: 6px solid black;
     margin: 20px 50px auto;
     background-color: white;
     max-width: 100%;
@@ -75,6 +95,7 @@
   /* Style the buttons inside the tab */
   .tab button {
     background-color: inherit;
+    width: 20%;
     float: left;
     border: none;
     outline: none;
@@ -96,7 +117,24 @@
 
   /* Style the tab content */
   .tabcontent {
-    display: none;
     padding: 6px 12px;
     border-top: none;
+    background-color: green;
+    text-align: right;
+  }
+}
+  #tab-creations {
+    background-color: green;
+  }
+  #tab-designs {
+    background-color: blue;
+  }
+  #tab-videos {
+    background-color: cyan;
+  }
+  #tab-coding {
+    background-color: purple;
+  }
+  #tab-music {
+    background-color: orange;
   }
