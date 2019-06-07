@@ -1,7 +1,11 @@
 
   body {
-    background-image: url("images/darkgray.jpg");
+    background-image: url("images/darkgraywood.jpg");
     background-repeat: repeat-y;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
   }
 
@@ -20,6 +24,7 @@
       font-family: "Courier New",serif;
       font-weight: 5;
       font-size: 20px;
+      top: 100px;
   }
   h3 {
       color: white;
@@ -31,8 +36,23 @@
   h4 {
       color: black;
       text-align: center;
-      font-family: Times,serif;
+      font-family: "Courier New",serif;
+      font-weight: normal;
+      font-size: 40px;
+  }
+  h5 {
+      color: black;
+      text-align: center;
+      font-family: "Courier New",serif;
+      font-weight: normal;
       font-size: 30px;
+  }
+  h6 {
+      color: black;
+      text-align: center;
+      font-family: "Courier New",serif;
+      font-weight: lighter;
+      font-size: 20px;
   }
   p {
       color: black;
@@ -133,7 +153,8 @@
 
   /* Create an active/current tablink class */
   .tab button.active {
-    background-color: #bad1ff;
+    color: white;
+    background-color: #707a8c;
   }
 
   /* Style the tab content */
@@ -144,22 +165,45 @@
     /* background-color: #a4e6fc; */
   }
 }
-#tab-dummy {
-}
+  #tab-dummy {
+  }
   #tab-creations {
-    background-color: #a4e6fc;
+    background-color: white;
     height: 2000px;
   }
   #tab-designs {
-    background-color: #c9ffe0;
+    background-color: white;
     height: 2000px;
   }
   #tab-videos {
-    background-color: #ff7575;
+    background-color: white;
   }
   #tab-coding {
-    background-color: purple;
+    background-color: white;
   }
   #tab-music {
-    background-color: orange;
+    background-color: white;
+  }
+
+  #embedvideo {
+    text-align: center;
+  }
+  #descriptioncontainer {
+    margin: 0 auto;
+    margin-top: -30px;
+    max-width: 70%;
+  }
+  #dividerline-desc{
+    margin: 0 auto;
+    margin-top: -30px;
+    border-top: 3px dashed #707a8c;
+    color: white;
+    background-color: white;
+    height: 1px;
+    width: 70%;
+  }
+  #biocontainer-desc{
+    background-color: white;
+    top: 1000px;
+    height: 100px;
   }

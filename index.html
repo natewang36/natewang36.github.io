@@ -33,12 +33,23 @@ Here's where the real stuff starts -->
         <button class="tablinks" onclick="openCity(event, 'tab-designs')"><h3>Graphic Designs</h3></button>
         <button class="tablinks" onclick="openCity(event, 'tab-videos')"><h3>Videos Produced</h3></button>
         <button class="tablinks" onclick="openCity(event, 'tab-coding')"><h3>Coding Projects</h3></button>
-        <button class="tablinks" onclick="openCity(event, 'tab-music')"><h3>Music</h3></button>
+        <button class="tablinks" onclick="openCity(event, 'tab-music')"><h3>Music Produced</h3></button>
       </div>
 
       <div id="tab-creations" class="tabcontent">
-        <h4>Makerspace Creations</h4>
-        <p>temp</p>
+        <h4>MAKERSPACE CREATIONS</h4>
+        <div id = "dividerline-desc"></div>
+        <!-- Battery Box -->
+        <h5>BATTERY BOX</h5>
+        <div id = "descriptioncontainer">
+          <h6>I used the laser cutter in my high school's Makerspace to make a battery box for the VEX Robotics club I led.</h6>
+        </div>
+        <div id="embedvideo">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/rF7mdtQJKzM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <br><br><br>
+        <div id = "dividerline-desc"></div>
+
       </div>
 
       <div id="tab-designs" class="tabcontent">
@@ -62,45 +73,65 @@ Here's where the real stuff starts -->
       </div>
 
         <script>
-        function openCity(evt, cityName) {
-          var i, tabcontent, tablinks;
-          tabcontent = document.getElementsByClassName("tabcontent");
-          for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
+          function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+              tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+              tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
           }
-          tablinks = document.getElementsByClassName("tablinks");
-          for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active", "");
+
+          // default open first tab
+          document.getElementById("defaultOpen").click();
+          </script>
+
+
+          <!-- STICKYYYY -->
+          <script>
+          window.onscroll = function() {myFunction()};
+
+          var navbar = document.getElementById("tabbar");
+
+          var sticky = navbar.offsetTop;
+
+          function myFunction() {
+            if (window.pageYOffset >= sticky) {
+              navbar.classList.add("sticky")
+            // if (window.pageYOffset <= sticky) {
+            //   navbar.classList.remove("sticky")
+
+            } else {
+              navbar.classList.remove("sticky");
+            }
           }
-          document.getElementById(cityName).style.display = "block";
-          evt.currentTarget.className += " active";
-        }
-
-        // default open first tab
-        document.getElementById("defaultOpen").click();
+          window.onscroll = function() {myFunction(2)}
 
 
-        // When the user scrolls the page, execute myFunction
-        window.onscroll = function() {myFunction()};
-
-        // Get the navbar
-        var navbar = document.getElementById("tabbar");
-
-        // Get the offset position of the navbar
-        var sticky = navbar.offsetTop;
-
-        // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-        function myFunction() {
-          if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky")
-          } else {
-            navbar.classList.remove("sticky");
-          }
-        }
         </script>
 
-
 </div>
+<body>
+<div id ="titlebox-desc">
+  <div id = "mainhello-desc" class = 'text'>
+    <h1>Bio</h1>
+    <br><h2>I am a student currently attending Haverford College. Career paths I am considering are engineering, design, and video production. I enjoy coding and producing electronic music in my free time.</h2>
+    <br><a class="emailbutton" href="mailto:natewang36@gmail.com">Contact Me</a>
+  </div>
+</div>
+<div id ="titlebox-desc">
+  <div id = "mainhello-desc" class = 'text'>
+    <h1>Hey! I'm Nathan Wang</h1>
+    <br><h2>I am a student currently attending Haverford College. Career paths I am considering are engineering, design, and video production. I enjoy coding and producing electronic music in my free time.</h2>
+    <br><a class="emailbutton" href="mailto:natewang36@gmail.com">Contact Me</a>
+  </div>
+</div>
+</body>
 
 
 </html>
