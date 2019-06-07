@@ -17,44 +17,47 @@ Here's where the real stuff starts -->
 <div id ="titlebox-desc">
   <div id = "mainhello-desc" class = 'text'>
     <h1>Hey! I'm Nathan Wang</h1>
+    <br><h2>I am a student currently attending Haverford College. Career paths I am considering are engineering, design, and video production. I enjoy coding and producing electronic music in my free time.</h2>
     <br><a class="emailbutton" href="mailto:natewang36@gmail.com">Contact Me</a>
   </div>
 </div>
+</body>
+
 <div id ="bodywhite-desc">
-  <div id ="quickbio-desc">
+  <!-- <div id ="quickbio-desc">
     <p>I am a student currently attending Haverford College. Career paths I am considering are engineering, design, and video production. I enjoy coding and producing electronic music in my free time.</p>
-  </div>
+  </div> -->
       <!-- TABS -->
-        <div class="tab">
-        <button class="tablinks" onclick="openCity(event, 'tab-creations')" id="defaultOpen">Makerspace Creations</button>
-        <button class="tablinks" onclick="openCity(event, 'tab-designs')">Graphic Designs</button>
-        <button class="tablinks" onclick="openCity(event, 'tab-videos')">Videos Produced</button>
-        <button class="tablinks" onclick="openCity(event, 'tab-coding')">Coding Projects</button>
-        <button class="tablinks" onclick="openCity(event, 'tab-music')">Music</button>
+        <div id ="tabbar" class="tab">
+        <button class="tablinks" onclick="openCity(event, 'tab-creations')" id="defaultOpen"><h3>Makerspace Creations</h3></button>
+        <button class="tablinks" onclick="openCity(event, 'tab-designs')"><h3>Graphic Designs</h3></button>
+        <button class="tablinks" onclick="openCity(event, 'tab-videos')"><h3>Videos Produced</h3></button>
+        <button class="tablinks" onclick="openCity(event, 'tab-coding')"><h3>Coding Projects</h3></button>
+        <button class="tablinks" onclick="openCity(event, 'tab-music')"><h3>Music</h3></button>
       </div>
 
       <div id="tab-creations" class="tabcontent">
-        <h3>Makerspace Creations</h3>
+        <h4>Makerspace Creations</h4>
         <p>temp</p>
       </div>
 
       <div id="tab-designs" class="tabcontent">
-        <h3>Graphic Designs</h3>
-        <p>temp</p>
+        <h4>Graphic Designs</h4>
+        <p>Hey! I love creating apparel using Custom Ink!! If you want me to make you some apparel, click here to order from my brand new website!!!!! :DDDDDDD</p>
       </div>
 
       <div id="tab-videos" class="tabcontent">
-        <h3>Videos Produced</h3>
+        <h4>Videos Produced</h4>
         <p>temp</p>
       </div>
 
       <div id="tab-coding" class="tabcontent">
-        <h3>Coding Projects</h3>
+        <h4>Coding Projects</h4>
         <p>temp</p>
       </div>
 
       <div id="tab-music" class="tabcontent">
-        <h3>Music I Produced</h3>
+        <h4>Music I Produced</h4>
         <p>temp</p>
       </div>
 
@@ -75,12 +78,29 @@ Here's where the real stuff starts -->
 
         // default open first tab
         document.getElementById("defaultOpen").click();
+
+
+        // When the user scrolls the page, execute myFunction
+        window.onscroll = function() {myFunction()};
+
+        // Get the navbar
+        var navbar = document.getElementById("tabbar");
+
+        // Get the offset position of the navbar
+        var sticky = navbar.offsetTop;
+
+        // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
         </script>
 
 
 </div>
 
 
-
-</body>
 </html>
