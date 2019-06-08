@@ -17,9 +17,14 @@ Here's where the real stuff starts -->
 <div id ="titlebox-desc">
   <div id = "mainhello-desc" class = 'text'>
     <h1>Hey! I'm Nathan Wang</h1>
-    <br><h2>I am a student currently attending Haverford College. Career paths I am considering are engineering, design, and video production. I enjoy coding and producing electronic music in my free time.</h2>
-    <br><a class="emailbutton" href="mailto:natewang36@gmail.com">Contact Me</a>
   </div>
+  <div id="centertext">
+    <h2>I am a student currently attending Haverford College. Career paths I am considering are engineering, design, and video production. <br>I enjoy coding, creating PowerPoints, and producing electronic music in my free time.</h2>
+  </div>
+  <div id="centertext">
+    <a class="emailbutton" href="mailto:natewang36@gmail.com">Contact Me</a>
+  </div>
+
 </div>
 </body>
 
@@ -100,18 +105,21 @@ Here's where the real stuff starts -->
 
           var sticky = navbar.offsetTop;
 
+          var page = document.getElementById("bodywhite-desc");
+
+          var toosticky = page.offsetTop;
+
+
           function myFunction() {
             if (window.pageYOffset >= sticky) {
               navbar.classList.add("sticky")
-            // if (window.pageYOffset <= sticky) {
-            //   navbar.classList.remove("sticky")
-
-            } else {
+            } else if (window.pageYOffset >= toosticky) {
+              navbar.classList.remove("sticky")
+            }
+              else {
               navbar.classList.remove("sticky");
             }
           }
-          window.onscroll = function() {myFunction(2)}
-
 
         </script>
 

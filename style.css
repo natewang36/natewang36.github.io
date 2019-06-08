@@ -8,7 +8,9 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-
+  #centertext {
+    text-align: center;
+  }
   /* Big Titles */
   h1 {
       color: white;
@@ -16,7 +18,7 @@
       font-family: "Jazz LET", fantasy;
       font-weight: 2;
       font-size: 70px;
-      height: 70px;
+      line-height: 70px;
     }
   h2 {
       color: white;
