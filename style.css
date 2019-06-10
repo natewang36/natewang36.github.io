@@ -74,6 +74,30 @@
     position: static;
     text-align: left;
   }
+  a:link {
+    color: inherit;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  a:visited {
+    color: inherit;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
 
   #titlebox-desc{
     background-image: linear-gradient(to top left, rgb(66, 223, 244), rgb(52, 131, 249));
@@ -96,6 +120,7 @@
     font-family: "Courier New";
     font-weight: 300;
     font-size: 20px;
+    margin-top: 30px;
     margin-bottom: 15px;
     display: inline-block;
     text-decoration: none;
@@ -137,7 +162,7 @@
   /* Style the buttons inside the tab */
   .tab button {
     background-color: inherit;
-    width: 20%;
+    width: 16.6666666666666666666666666666666666666667%;
     float: left;
     border: none;
     outline: none;
@@ -161,9 +186,7 @@
 
   /* Style the tab content */
   .tabcontent {
-    padding: 6px 12px;
     border-top: none;
-    text-align: right;
     /* background-color: #a4e6fc; */
   }
 }
@@ -171,29 +194,47 @@
   }
   #tab-creations {
     background-color: white;
-    height: 2000px;
+    max-height: auto;
+    overflow: hidden;
   }
   #tab-designs {
     background-color: white;
-    height: 2000px;
+    max-height: auto;
+    overflow: hidden;
   }
   #tab-videos {
     background-color: white;
+    max-height: auto;
+    overflow: hidden;
   }
   #tab-coding {
     background-color: white;
+    max-height: auto;
+    overflow: hidden;
   }
   #tab-music {
     background-color: white;
+    max-height: auto;
+    overflow: hidden;
+  }
+  #tab-powerpoints {
+    background-color: white;
+    overflow: hidden;
+    max-height: auto;
   }
 
   #embedvideo {
     text-align: center;
+    height: auto;
   }
   #descriptioncontainer {
     margin: 0 auto;
     margin-top: -30px;
     max-width: 70%;
+  }
+  #shirtcontainer {
+    margin: 0 auto;
+    text-align: center;
   }
   #dividerline-desc{
     margin: 0 auto;
@@ -204,8 +245,15 @@
     height: 1px;
     width: 70%;
   }
-  #biocontainer-desc{
-    background-color: white;
-    top: 1000px;
-    height: 100px;
+  #biobox-desc{
+    background-image: linear-gradient(to top left, rgb(66, 223, 244), rgb(52, 131, 249));
+    border: 4px solid transparent;
+    max-width: 100%;
+    position: static;
+    margin-left: 50vw;
+    margin-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+
   }
