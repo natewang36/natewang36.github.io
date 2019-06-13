@@ -8,25 +8,6 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-
-  /*SCROLLBAR*/
-  /* ::-webkit-scrollbar {
-    width: 0.5vw;
-  }
-
-  ::-webkit-scrollbar-track {
-    background-image: linear-gradient(to bottom, #ffd11a, #ff471a);
-  }
-
-  ::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 4px;
-  }
-
-  ::-webkit-scrollbar-thumb:hover {
-    background: #777;
-  } */
-
   #centertext {
     text-align: center;
   }
@@ -44,7 +25,7 @@
       font-size: 4em;
       width: 75%;
       margin: 0 auto;
-      margin-top: 6vw;
+      margin-top: 7.2vw;
     }
   h2 {
       color: white;
@@ -66,7 +47,7 @@
       text-align: center;
       font-family: "Point Soft Semi-Bold",serif;
       font-weight: normal;
-      font-size: 2.8em;
+      font-size: 3em;
   }
   h5 {
       color: black;
@@ -99,15 +80,6 @@
   .writing{
     position: static;
     text-align: left;
-  }
-  .btn{
-    font-size:48px;
-    background: transparent;
-    border: transparent;
-  }
-  .btn:hover{
-    background: black;
-    border-radius: 200%;
   }
   a:link {
     color: inherit;
@@ -147,7 +119,7 @@
     padding-bottom: 5%;
   }
   #mainhello-desc{
-    top: 0px;
+    top: 30px;
   }
   .emailbutton{
     border: 2px solid white;
@@ -172,47 +144,6 @@
     border-image-slice: 1;
     border-width: 2px;
   }
-  #buttoncontainer{
-    margin: 0 auto;
-    margin-top: 4em;
-    text-align: center;
-  }
-  /*ARROW*/
-  .arrow{
-    position: absolute;
-    margin-left: 48.5%;
-    transform: translate(-50%,-50%);
-  }
-  .arrow span{
-      display: block;
-      width: 15px;
-      height: 15px;
-      opacity: 0.6;
-      border-bottom: 2px solid #ff9a02;
-      border-right: 2px solid #ff9a02;
-      transform: rotate(45deg);
-      margin: -10px;
-      animation: animate 3s infinite;
-  }
-  .arrow span:nth-child(2){
-      animation-delay: -0.3s;
-  }
-  .arrow span:nth-child(3){
-      animation-delay: -0.6s;
-  }
-  @keyframes animate {
-      0%{
-          opacity: 0;
-          transform: rotate(45deg) translate(-20px,-20px);
-      }
-      50%{
-          opacity: 1;
-      }
-      100%{
-          opacity: 0;
-          transform: rotate(45deg) translate(20px,20px);
-      }
-  }
 
   #bodywhite-desc{
     margin-top: 86px;
@@ -225,6 +156,7 @@
     padding: 20px 20px 20px 20px;
     max-width: 100%;
   }
+
   /* Style the tab */
   .tab {
     overflow: hidden;
@@ -263,7 +195,6 @@
   /* Create an active/current tablink class */
   .tab button.active {
     color: black;
-    text-decoration: underline;
     /* background-color: ; */
     background-color: inherit;
   }

@@ -12,11 +12,9 @@ Here's where the real stuff starts -->
 <head>
   <link href = "style.css" rel = "stylesheet" type = "text/css">
   <link href = "fonts.css" rel = "stylesheet" type = "text/css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-
 <div id ="titlebox-desc">
   <div id = "mainhello-desc" class = 'text'>
     <h1>Hey! I'm Nathan</h1>
@@ -27,16 +25,7 @@ Here's where the real stuff starts -->
   <div id="centertext">
     <a style="color: white; text-decoration: none;" class="emailbutton" href="mailto:natewang36@gmail.com">Contact Me</a>
   </div>
-  <div id="buttoncontainer">
-    <a href="https://github.com/natewang36" class="btn"><i class="fa fa-github" style="font-size:48px;background-image: linear-gradient(to left, #ffd11a, #ff471a);-webkit-background-clip: text;-webkit-text-fill-color: transparent;"></i></a>
-    <a href="https://www.youtube.com/channel/UCVmYvZSmhQzf7ryGj_xAPbA" class="btn"><i class="fa fa-youtube" style="font-size:48px;background-image: linear-gradient(to left, #ffd11a, #ff471a);-webkit-background-clip: text;-webkit-text-fill-color: transparent;"></i></a>
-    <a href="https://soundcloud.com/natewang36" class="btn"><i class="fa fa-soundcloud" style="font-size:48px;background-image: linear-gradient(to left, #ffd11a, #ff471a);-webkit-background-clip: text;-webkit-text-fill-color: transparent;"></i></a>
-  </div>
-</div>
-<div class="arrow">
-                <span></span>
-                <span></span>
-                <span></span>
+
 </div>
 </body>
 
@@ -142,9 +131,50 @@ Here's where the real stuff starts -->
         <div id = "dividerline-desc"></div>
         <br><br>
       </div>
-      <script src= "scripts.js"></script>
+
+        <script>
+          function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+              tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+              tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+          }
+
+          // default open first tab
+          document.getElementById("defaultOpen").click();
+          </script>
 
 
+          <!-- STICKYYYY -->
+          <script>
+          window.onscroll = function() {myFunction()};
+
+          var navbar = document.getElementById("tabbar");
+
+          var sticky = navbar.offsetTop;
+
+          var page = document.getElementById("bodywhite-desc");
+
+          var toosticky = page.offsetTop;
+
+
+          function myFunction() {
+            if (window.pageYOffset >= sticky) {
+              navbar.classList.add("sticky")
+            }
+              else {
+              navbar.classList.remove("sticky");
+            }
+          }
+
+        </script>
 
 </div>
 <br><br>
@@ -156,16 +186,8 @@ Here's where the real stuff starts -->
 <div id ="biobox-desc">
   <div id = "biotext-desc" class = 'text'>
     <h4 style="text-align: left; margin-left: 0vw;color: transparent; margin-top: 2vw; margin-bottom: 1vw;background-image: linear-gradient(to left, #ffd11a, #ff471a);-webkit-background-clip: text;-webkit-text-fill-color: transparent;text-decoration: underline;max-width:50%;">About Me</h4>
-    <div style="width: 50%; float: left; margin-top: 0; background: transparent; border-image: linear-gradient(to left, #ffd11a, #ff471a); border-image-slice: 1; border-top: 3px dashed transparent;"id="dividerline-desc"></div>
-    <h2 style="text-align: left; margin-left: 0vw; font-weight: normal;">
-    Name: Nathan C. Wang<br>
-    Age: 17<br>
-    Birthdate: 8/1/2001<br>
-    Nationality: Taiwanese<br>
-    Middle School: <a href="https://www.tas.edu.tw/">Taipei American School</a> - Taipei, Taiwan<br>
-    High School: <a href="https://www.andover.edu/">Phillips Academy Andover</a> - Andover, MA<br>
-    Undergraduate: <a href="https://www.haverford.edu/">Haverford College</a> - Haverford, PA<br>
-  </h2>
+    <h2 style="text-align: left; margin-left: 0vw; font-weight: bold;">
+      Name: Nathan C. Wang<br>Age: 17<br>Birthdate: 8/1/2001<br>Nationality: Taiwanese<br>Education: K-8 <a href="https://www.tas.edu.tw/">Taipei American School</a>. 9-12 <a href="https://www.andover.edu/">Phillips Academy Andover</a>.</h2>
   </div>
 </div>
 </div>
