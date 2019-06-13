@@ -8,6 +8,11 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+  @keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+  }
+
 
   /*SCROLLBAR*/
   /* ::-webkit-scrollbar {
@@ -29,6 +34,7 @@
 
   #centertext {
     text-align: center;
+    margin: 0 auto;
   }
   .center {
     display: block;
@@ -45,6 +51,7 @@
       width: 75%;
       margin: 0 auto;
       margin-top: 6vw;
+      text-align: center;
     }
   h2 {
       color: white;
@@ -54,12 +61,14 @@
       font-size: 1.3em;
       margin: 0 auto;
       margin-top: 3vw;
+      text-align: center;
   }
   h3 {
       color: inherit;
       font-family: "Point Soft Light",serif;
       font-weight: normal;
       font-size: 1.1em;
+      text-align: center;
   }
   h4 {
       color: black;
