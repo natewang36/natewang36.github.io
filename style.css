@@ -22,46 +22,46 @@
       font-family: "Point Soft Semi-Bold";
       /* font-family: "Jazz LET", fantasy; */
       font-weight: bold;
-      font-size: 5.5vw;
+      font-size: 4em;
       width: 75%;
       margin: 0 auto;
-      margin-top: 100px;
+      margin-top: 7.2vw;
     }
   h2 {
       color: white;
       font-family: "Point Soft Light";
       /* font-family: "Courier New",serif; */
       font-weight: lighter;
-      font-size: 1.5vw;
+      font-size: 1.3em;
       margin: 0 auto;
-      margin-top: 31px;
+      margin-top: 3vw;
   }
   h3 {
-      color: white;
+      color: inherit;
       font-family: "Point Soft Light",serif;
       font-weight: normal;
-      font-size: 17px;
+      font-size: 1.1em;
   }
   h4 {
       color: black;
       text-align: center;
       font-family: "Point Soft Semi-Bold",serif;
       font-weight: normal;
-      font-size: 40px;
+      font-size: 3em;
   }
   h5 {
       color: black;
       text-align: center;
       font-family: "Point Soft Light",serif;
       font-weight: normal;
-      font-size: 30px;
+      font-size: 2em;
   }
   h6 {
       color: black;
       text-align: center;
       font-family: "Point Soft Light",serif;
       font-weight: lighter;
-      font-size: 20px;
+      font-size: 1.2em;
   }
   p {
       color: black;
@@ -123,17 +123,17 @@
   }
   .emailbutton{
     border: 2px solid white;
+    background-image: transparent;
     border-radius: 0px;
     color: white;
     text-align: center;
     font-family: "Courier New";
     font-weight: 300;
-    font-size: 20px;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    font-size: 1.3em;
+    margin-top: 2em;
     display: inline-block;
     text-decoration: none;
-    padding: 8px 16px 10px 16px;
+    padding: 0.5em 1.2em 0.5em 1.2em;
   }
   .emailbutton:hover{
     background-image: linear-gradient(to left, #ffd11a, #ff471a);
@@ -175,6 +175,7 @@
   /* Style the buttons inside the tab */
   .tab button {
     background-color: inherit;
+    color: white;
     width: 16.6666666666666666666666666666666666666667%;
     float: left;
     border: none;
@@ -188,13 +189,14 @@
   /* Change background color of buttons on hover */
   .tab button:hover {
     background-color: inherit;
-    opacity: 0.4
+    opacity: 0.6
   }
 
   /* Create an active/current tablink class */
   .tab button.active {
-    color: white;
-    background-color: #707a8c;
+    color: black;
+    /* background-color: ; */
+    background-color: inherit;
   }
 
   /* Style the tab content */
@@ -209,31 +211,43 @@
     background-color: white;
     max-height: auto;
     overflow: hidden;
+    max-width: 70%;
+    margin: 0 auto;
   }
   #tab-designs {
     background-color: white;
     max-height: auto;
     overflow: hidden;
+    max-width: 70%;
+    margin: 0 auto;
   }
   #tab-videos {
     background-color: white;
     max-height: auto;
     overflow: hidden;
+    max-width: 70%;
+    margin: 0 auto;
   }
   #tab-coding {
     background-color: white;
     max-height: auto;
     overflow: hidden;
+    max-width: 70%;
+    margin: 0 auto;
   }
   #tab-music {
     background-color: white;
     max-height: auto;
     overflow: hidden;
+    max-width: 70%;
+    margin: 0 auto;
   }
   #tab-powerpoints {
     background-color: white;
     overflow: hidden;
     max-height: auto;
+    max-width: 70%;
+    margin: 0 auto;
   }
 
   #embedvideo {
@@ -242,7 +256,7 @@
   }
   #descriptioncontainer {
     margin: 0 auto;
-    margin-top: -30px;
+    margin-top:;
     max-width: 60%;
   }
   #shirtcontainer {
@@ -251,12 +265,12 @@
   }
   #dividerline-desc{
     margin: 0 auto;
-    margin-top: -30px;
-    border-top: 2px dashed #707a8c;
+    margin-top: -3em;
+    border-top: 0.4em dashed #707a8c;
     color: white;
     background-color: white;
     height: 1px;
-    width: 70%;
+    width: 30%;
   }
   #biobox-desc{
     background-image: transparent;
@@ -265,7 +279,7 @@
     text-align: left;
     max-width: 63%;
     max-height: auto;
-    float: right;
+    float: left;
     margin-bottom: 1vw;
     padding-left: 2%;
     padding-right: 2%;
@@ -281,4 +295,8 @@
     border-image: linear-gradient(to left, #ffd11a, #ff471a);
     border-image-slice: 1;
     border-width: 3px;
+  }
+
+  #biotext-desc{
+    top:30px;
   }
