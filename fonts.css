@@ -19,6 +19,10 @@
   src: url("fonts/QanelasSoftDEMO-UltraLight.otf")
 }
 @font-face {
-  font-family: Autobus;
-  src: url("fonts/QanelasSoftDEMO-UltraLight.otf")
+  font-family: "Hanken Grotesk UltraLight";
+  src: url("fonts/HankenGrotesk-ExtraLight.otf")
+}
+@font-face {
+  font-family: "Hanken Grotesk Light";
+  src: url("fonts/HankenGrotesk-Light.otf");
 }
