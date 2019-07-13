@@ -90,6 +90,7 @@
       font-family: "Hanken Grotesk UltraLight",serif;
       font-weight: lighter;
       font-size: 1.2em;
+      line-height: 1.4em;
   }
   p {
       color: black;
@@ -289,42 +290,42 @@
     background-color: white;
     max-height: auto;
     overflow: hidden;
-    max-width: 70%;
+    max-width: 100%;
     margin: 0 auto;
   }
   #tab-designs {
     background-color: white;
     max-height: auto;
     overflow: hidden;
-    max-width: 70%;
+    max-width: 100%;
     margin: 0 auto;
   }
   #tab-videos {
     background-color: white;
     max-height: auto;
     overflow: hidden;
-    max-width: 70%;
+    max-width: 100%;
     margin: 0 auto;
   }
   #tab-coding {
     background-color: white;
     max-height: auto;
     overflow: hidden;
-    max-width: 70%;
+    max-width: 100%;
     margin: 0 auto;
   }
   #tab-music {
     background-color: white;
     max-height: auto;
     overflow: hidden;
-    max-width: 70%;
+    max-width: 100%;
     margin: 0 auto;
   }
   #tab-powerpoints {
     background-color: white;
     overflow: hidden;
     max-height: auto;
-    max-width: 70%;
+    max-width: 100%;
     margin: 0 auto;
   }
 
@@ -334,7 +335,7 @@
   }
   #descriptioncontainer {
     margin: 0 auto;
-    margin-top:;
+    margin-top: -2.5em;
     max-width: 60%;
   }
   #shirtcontainer {
