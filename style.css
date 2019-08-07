@@ -116,10 +116,10 @@
     background: transparent;
     border: transparent;
   }
-  .btn:hover{
+  /* .btn:hover{
     background: black;
     border-radius: 200%;
-  }
+  } */
   a:link {
     color: inherit;
     background-color: transparent;
