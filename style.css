@@ -1,4 +1,4 @@
-
+@media only screen and (min-width: 1000px) {
   body {
     background-image: url("images/darkermapgoogledots.png");
     background-repeat: repeat-y;
@@ -8,6 +8,18 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+}
+@media only screen and (max-width: 1000px) {
+  body {
+    background-image: url("images/darkgraywood.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
   @keyframes fadein {
       from { opacity: 0; }
       to   { opacity: 1; }
