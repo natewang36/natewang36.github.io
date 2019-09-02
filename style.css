@@ -125,12 +125,10 @@
   }
   .btn{
     font-size:48px;
-    background: transparent;
-    border: transparent;
   }
-  /* .btn:hover{
-    color: green;
-  } */
+  .btn:hover{
+    /* font-size:48px;background-image: linear-gradient(to left, #ffd11a, #ff471a);-webkit-background-clip: text;-webkit-text-fill-color: transparent; */
+  }
   a:link {
     color: inherit;
     background-color: transparent;
