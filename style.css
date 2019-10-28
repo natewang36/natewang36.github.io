@@ -200,7 +200,7 @@
   /*ARROW*/
   .arrow{
     position: absolute;
-    margin-left: 48.5%;
+    margin-left: 48.75%;
     transform: translate(-50%,-50%);
   }
   .arrow span{
