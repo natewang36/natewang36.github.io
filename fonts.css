@@ -26,3 +26,11 @@
   font-family: "Hanken Grotesk Light";
   src: url("fonts/HankenGrotesk-Light.otf");
 }
+@font-face {
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat-Regular.otf")
+}
+@font-face {
+  font-family: "Crimson";
+  src: url("fonts/Crimson-Semibold.otf")
+}

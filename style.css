@@ -55,6 +55,17 @@
     width: 50%;
   }
   /* Big Titles */
+  label {
+      color: white;
+      font-family: 'Montserrat';
+      /* font-family: "Jazz LET", fantasy; */
+      /* font-weight: bold; */
+      font-size: 5.5em;
+      width: 75%;
+      margin: 0 auto;
+      margin-top: 6vw;
+      text-align: center;
+    }
   h1 {
       color: white;
       font-family: "Point Soft Semi-Bold";
@@ -409,4 +420,24 @@
 
   #biotext-desc{
     top:30px;
+  }
+  input[type=checkbox] {
+   position: absolute;
+   top: -9999px;
+   left: -9999px;
+  }
+
+  #shown {
+      display: block;
+  }
+  #hidden {
+      display: none;
+  }
+
+  #toggle:checked ~ #hidden{
+     display: block;
+  }
+
+  #toggle:checked ~ #shown {
+     display: none;
   }
