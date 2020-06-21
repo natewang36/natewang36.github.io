@@ -1,6 +1,7 @@
-@media only screen and (min-width: 1000px) {
   body {
-    background-image: url("images/darkermapgoogledots.png");
+    /* background-image: url("images/darkermapgoogledotscompressed.png"); */
+    /* background-color: gray; */
+    background-image: linear-gradient(to bottom, #2266aa, #6aa6e2);
     background-repeat: repeat-y;
     background-size: cover;
     background-attachment: fixed;
@@ -9,16 +10,7 @@
     background-size: cover;
   }
 }
-@media only screen and (max-width: 1000px) {
-  body {
-    background-image: url("images/darkgraywood.jpg");
-    background-repeat: repeat-y;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+
 }
   @keyframes fadein {
       from { opacity: 0; }
@@ -57,25 +49,26 @@
   /* Big Titles */
   label {
       color: white;
-      font-family: 'Montserrat';
+      /* font-family: 'Montserrat'; */
+      font-family: "Point Soft Light";
+
       /* font-family: "Jazz LET", fantasy; */
       /* font-weight: bold; */
-      font-size: 5.5em;
-      width: 75%;
+      font-size: 5em;
+      width: 95%;
       margin: 0 auto;
-      margin-top: 6vw;
+      margin-top: 9vw;
       text-align: center;
     }
   h1 {
-      color: white;
-      font-family: "Point Soft Semi-Bold";
-      /* font-family: "Jazz LET", fantasy; */
-      font-weight: bold;
-      font-size: 4em;
-      width: 75%;
-      margin: 0 auto;
-      margin-top: 6vw;
-      text-align: center;
+    color: white;
+    font-family: "Point Soft Light";
+    /* font-family: "Courier New",serif; */
+    font-weight: lighter;
+    font-size: 1.5em;
+    margin: 0 auto;
+    margin-top: 1vw;
+    text-align: center;
     }
   h2 {
       color: white;
@@ -153,7 +146,8 @@
   }
 
   a:hover {
-    background-image: linear-gradient(to left, #ffd11a, #ff471a);
+    /* background-image: linear-gradient(to left, #ffd11a, #ff471a); */
+    background-image: linear-gradient(to left, black, black);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-decoration: underline;
@@ -178,7 +172,7 @@
     padding-bottom: 5%;
   }
   #mainhello-desc{
-    top: 0px;
+    top: 20em;
   }
   .emailbutton{
     border: 2px solid white;
@@ -186,22 +180,25 @@
     border-radius: 0px;
     color: white;
     text-align: center;
-    font-family: "Courier New";
+    font-family: "Point Soft Light";
     font-weight: 300;
     font-size: 1.3em;
-    margin-top: 2em;
+    margin-top: 1em;
     display: inline-block;
     text-decoration: none;
     padding: 0.5em 1.2em 0.5em 1.2em;
   }
   .emailbutton:hover{
-    background-image: linear-gradient(to left, #ffd11a, #ff471a);
+    /* background-image: linear-gradient(to left, #ffd11a, #ff471a); */
+    background-image: linear-gradient(to left, black, black);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     border: 2px solid transparent;
-    border-image: linear-gradient(to left, #ffd11a, #ff471a);
+    border-image: linear-gradient(to left, black, black);
     border-image-slice: 1;
     border-width: 2px;
+    border-radius: 8px;
+    transition: 0.3s
   }
   #buttoncontainer{
     margin: 0 auto;
@@ -219,8 +216,8 @@
       width: 15px;
       height: 15px;
       opacity: 0.6;
-      border-bottom: 2px solid #ff9a02;
-      border-right: 2px solid #ff9a02;
+      border-bottom: 2px solid white;
+      border-right: 2px solid white;
       transform: rotate(45deg);
       margin: -10px;
       animation: animate 3s infinite;
@@ -246,7 +243,7 @@
   }
 
   #bodywhite-desc{
-    margin-top: 86px;
+    margin-top: 4em;
     margin-left: -8px;
     margin-right: -8px;
     background-color: white;
@@ -260,7 +257,8 @@
   .tab {
     overflow: hidden;
     /* background-image: linear-gradient(to right, rgb(66, 223, 244), rgb(52, 131, 249)); */
-    background-image: linear-gradient(to left, #ffd11a, #ff471a);
+    /* background-image: linear-gradient(to left, #ffd11a, #ff471a); */
+    background-image: linear-gradient(to left, black, black);
   }
   .sticky {
     position: fixed;
@@ -288,13 +286,14 @@
   /* Change background color of buttons on hover */
   .tab button:hover {
     background-color: inherit;
-    opacity: 0.6
+    text-decoration: underline;
+    /* opacity: 0.6 */
   }
 
   /* Create an active/current tablink class */
   .tab button.active {
-    color: black;
-    text-decoration: underline;
+    color: #008ae6;
+    /* text-decoration: underline; */
     /* background-color: ; */
     background-color: inherit;
   }
@@ -366,7 +365,7 @@
   #dividerline-desc{
     margin: 0 auto;
     margin-top: -3em;
-    background-image: linear-gradient(to left, #ffd11a, #ff471a);
+    background-image: linear-gradient(to left, #004d80, #006bb3);
     height: 0.2em;
     width: 40%;
   }
@@ -385,11 +384,11 @@
     padding: 0.5em 1.2em 0.5em 1.2em;
   }
   .profilebutton:hover{
-    background-image: linear-gradient(to left, #ffd11a, #ff471a);
+    background-image: linear-gradient(to left, #006bb3, #006bb3);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     border: 2px solid transparent;
-    border-image: linear-gradient(to left, #ffd11a, #ff471a);
+    border-image: linear-gradient(to left, #006bb3, #006bb3);
     border-image-slice: 1;
     border-width: 2px;
   }
@@ -413,7 +412,7 @@
     max-width: 30%;
     margin-bottom: 1vw;
     border: 3px solid transparent;
-    border-image: linear-gradient(to left, #ffd11a, #ff471a);
+    border-image: linear-gradient(to left, black, black);
     border-image-slice: 1;
     border-width: 3px;
   }
