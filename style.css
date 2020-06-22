@@ -50,7 +50,7 @@
   label {
       color: white;
       /* font-family: 'Montserrat'; */
-      font-family: "Open Sans Light";
+      font-family: "Open Sans SemiBold";
 
       /* font-family: "Jazz LET", fantasy; */
       /* font-weight: bold; */
@@ -60,6 +60,22 @@
       margin-top: 7vw;
       text-align: center;
     }
+  .headtext {
+      color: white;
+      /* font-family: 'Montserrat'; */
+      font-family: "Open Sans SemiBold";
+
+      /* font-family: "Jazz LET", fantasy; */
+      /* font-weight: bold; */
+      font-size: 1em;
+      width: 95%;
+      margin: 0 auto;
+      margin-top: 7vw;
+      text-align: center;
+    }
+  .headtext:hover {
+    text-decoration: underline;
+  }
   h1 {
     color: white;
     /* font-family: "Point Soft Light"; */
