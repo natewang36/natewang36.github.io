@@ -50,19 +50,20 @@
   label {
       color: white;
       /* font-family: 'Montserrat'; */
-      font-family: "Point Soft Light";
+      font-family: "Open Sans Light";
 
       /* font-family: "Jazz LET", fantasy; */
       /* font-weight: bold; */
       font-size: 5em;
       width: 95%;
       margin: 0 auto;
-      margin-top: 9vw;
+      margin-top: 7vw;
       text-align: center;
     }
   h1 {
     color: white;
-    font-family: "Point Soft Light";
+    /* font-family: "Point Soft Light"; */
+    font-family: "Open Sans Light";
     /* font-family: "Courier New",serif; */
     font-weight: lighter;
     font-size: 1.5em;
@@ -72,7 +73,8 @@
     }
   h2 {
       color: white;
-      font-family: "Point Soft Light";
+      /* font-family: "Point Soft Light"; */
+      font-family: "Open Sans Light";
       /* font-family: "Courier New",serif; */
       font-weight: lighter;
       font-size: 1.3em;
@@ -82,7 +84,8 @@
   }
   h3 {
       color: inherit;
-      font-family: "Point Soft Light",serif;
+      /* font-family: "Point Soft Light",serif; */
+      font-family: "Open Sans Light";
       font-weight: normal;
       font-size: 1.1em;
       text-align: center;
@@ -90,21 +93,24 @@
   h4 {
       color: black;
       text-align: center;
-      font-family: "Hanken Grotesk Light",serif;
+      /* font-family: "Hanken Grotesk Light",serif; */
+      font-family: "Open Sans Light";
       font-weight: normal;
       font-size: 2.8em;
   }
   h5 {
       color: black;
       text-align: center;
-      font-family: "Hanken Grotesk UltraLight",serif;
+      /* font-family: "Hanken Grotesk UltraLight",serif; */
+      font-family: "Open Sans Light";
       font-weight: normal;
       font-size: 2em;
   }
   h6 {
       color: black;
       text-align: center;
-      font-family: "Hanken Grotesk UltraLight",serif;
+      /* font-family: "Hanken Grotesk UltraLight",serif; */
+      font-family: "Open Sans Light";
       font-weight: lighter;
       font-size: 1.2em;
       line-height: 1.4em;
@@ -112,7 +118,8 @@
   p {
       color: black;
       text-align: left;
-      font-family: "Trebuchet MS";
+      /* font-family: "Trebuchet MS"; */
+      font-family: "Open Sans Light";
       font-weight: normal;
       font-size: 20px;
       margin: 20px 20px 20px 20px;
@@ -180,7 +187,8 @@
     border-radius: 0px;
     color: white;
     text-align: center;
-    font-family: "Point Soft Light";
+    /* font-family: "Point Soft Light"; */
+    font-family: "Open Sans Light";
     font-weight: 300;
     font-size: 1.3em;
     margin-top: 1em;
@@ -193,6 +201,7 @@
     background-image: linear-gradient(to left, black, black);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-decoration: bold;
     border: 2px solid transparent;
     border-image: linear-gradient(to left, black, black);
     border-image-slice: 1;
@@ -375,7 +384,8 @@
     border-radius: 0em;
     color: black;
     text-align: center;
-    font-family: "Hanken Grotesk Light";
+    /* font-family: "Hanken Grotesk Light"; */
+    font-family: "Open Sans Light";
     font-weight: 300;
     font-size: 1.3em;
     margin-top: 0.5em;

@@ -34,3 +34,11 @@
   font-family: "Crimson";
   src: url("fonts/Crimson-Semibold.otf")
 }
+@font-face {
+  font-family: "Open Sans Regular";
+  src: url("fonts/OpenSans-Regular.ttf")
+}
+@font-face {
+  font-family: "Open Sans Light";
+  src: url("fonts/OpenSans-Light.ttf")
+}
