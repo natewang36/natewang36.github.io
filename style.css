@@ -271,8 +271,9 @@
     margin-top: 4em;
     margin-left: -8px;
     margin-right: -8px;
-    background-color: white;
+    /* background-color: white; */
     overflow: auto;
+
     }
   #quickbio-desc{
     padding: 20px 20px 20px 20px;
@@ -337,6 +338,11 @@
     overflow: hidden;
     max-width: 100%;
     margin: 0 auto;
+    background-image: url("images/backgrounds/noisier.png");
+    background-repeat: repeat;
+    background-size: auto;
+    background-attachment: scroll;
+    background-position: center;
   }
   #tab-designs {
     background-color: white;
@@ -344,6 +350,11 @@
     overflow: hidden;
     max-width: 100%;
     margin: 0 auto;
+    background-image: url("images/backgrounds/noisier.png");
+    background-repeat: repeat;
+    background-size: auto;
+    background-attachment: scroll;
+    background-position: center;
   }
   #tab-videos {
     background-color: white;
@@ -351,6 +362,11 @@
     overflow: hidden;
     max-width: 100%;
     margin: 0 auto;
+    background-image: url("images/backgrounds/noisier.png");
+    background-repeat: repeat;
+    background-size: auto;
+    background-attachment: scroll;
+    background-position: center;
   }
   #tab-coding {
     background-color: white;
@@ -358,6 +374,11 @@
     overflow: hidden;
     max-width: 100%;
     margin: 0 auto;
+    background-image: url("images/backgrounds/noisier.png");
+    background-repeat: repeat;
+    background-size: auto;
+    background-attachment: scroll;
+    background-position: center;
   }
   #tab-music {
     background-color: white;
@@ -365,13 +386,23 @@
     overflow: hidden;
     max-width: 100%;
     margin: 0 auto;
+    background-image: url("images/backgrounds/noisier.png");
+    background-repeat: repeat;
+    background-size: auto;
+    background-attachment: scroll;
+    background-position: center;
   }
   #tab-powerpoints {
     background-color: white;
-    overflow: hidden;
     max-height: auto;
+    overflow: hidden;
     max-width: 100%;
     margin: 0 auto;
+    background-image: url("images/backgrounds/noisier.png");
+    background-repeat: repeat;
+    background-size: auto;
+    background-attachment: scroll;
+    background-position: center;
   }
 
   #embedvideo {
