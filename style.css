@@ -299,7 +299,7 @@
   .tab button {
     background-color: inherit;
     color: white;
-    width: 16.6666666666666666666666666666666666666667%;
+    width: 25%;
     float: left;
     border: none;
     outline: none;
@@ -332,7 +332,7 @@
 }
   #tab-dummy {
   }
-  #tab-creations {
+  /* #tab-creations {
     background-color: white;
     max-height: auto;
     overflow: hidden;
@@ -393,6 +393,54 @@
     background-position: center;
   }
   #tab-powerpoints {
+    background-color: white;
+    max-height: auto;
+    overflow: hidden;
+    max-width: 100%;
+    margin: 0 auto;
+    background-image: url("images/backgrounds/noisier.png");
+    background-repeat: repeat;
+    background-size: auto;
+    background-attachment: scroll;
+    background-position: center;
+  } */
+  #tab-schoolwork {
+    background-color: white;
+    max-height: auto;
+    overflow: hidden;
+    max-width: 100%;
+    margin: 0 auto;
+    background-image: url("images/backgrounds/noisier.png");
+    background-repeat: repeat;
+    background-size: auto;
+    background-attachment: scroll;
+    background-position: center;
+  }
+  #tab-personalwork {
+    background-color: white;
+    max-height: auto;
+    overflow: hidden;
+    max-width: 100%;
+    margin: 0 auto;
+    background-image: url("images/backgrounds/noisier.png");
+    background-repeat: repeat;
+    background-size: auto;
+    background-attachment: scroll;
+    background-position: center;
+  }
+  #tab-graphicdesign {
+    background-color: white;
+    max-height: auto;
+    overflow: hidden;
+    max-width: 100%;
+    margin: 0 auto;
+    background-image: url("images/backgrounds/noisier.png");
+    background-repeat: repeat;
+    background-size: auto;
+    background-attachment: scroll;
+    background-position: center;
+  }
+  #tab-other {
     background-color: white;
     max-height: auto;
     overflow: hidden;
