@@ -1,0 +1,76 @@
+body {
+  background-image: url("images/noisier.png");
+}
+.separator {
+  clear:both;
+}
+.section {
+  margin: 0 auto;
+  text-align:left;
+  margin-right:28%;
+  margin-left:28%;
+}
+.headleft {
+  float:left;
+  margin-top: 5%;
+  margin-left:28%;
+  max-width:20%;
+  text-align:left;
+}
+.headright {
+  float:right;
+  margin-top: 5%;
+  margin-right:28%;
+  max-width:20%;
+  text-align:right;
+}
+.left {
+  float:left;
+  margin-left:28%;
+  max-width:20%;
+  text-align:left;
+}
+.right {
+  float:right;
+  margin-right:28%;
+  max-width:20%;
+  text-align:left;
+}
+.category {
+  margin: 0 auto;
+  text-align:center;
+  margin-bottom: -2vw;
+  margin-top: -2vw;
+}
+
+h1 {
+  color: white;
+  font-size: 2.5vw;
+  font-family: "Open Sans SemiBold";
+  color: #3493e0
+  }
+h2 {
+  font-size: 1vw;
+  font-family: "Open Sans Light";
+  color: black;
+  }
+h3 {
+  font-size: 0.82vw;
+  font-family: "Open Sans Bold";
+  color: black;
+  margin-bottom:-1vw;
+  }
+h4 {
+  font-size: 0.8vw;
+  font-family: "Open Sans Regular";
+  color: black
+  }
+h5 {
+  font-size: 1.2vw;
+  font-family: "Open Sans SemiBold";
+  color: black
+}
+footer {
+  text-align: center;
+  color:black;
+}

@@ -1,0 +1,52 @@
+@font-face {
+  font-family: Qanelas;
+  src: url("fonts/QanelasSoftDEMO-UltraLight.otf")
+}
+@font-face {
+  font-family: "Point Soft Semi-Bold";
+  src: url("fonts/Ndiscover - Point Soft DEMO Semi Bold.otf")
+}
+@font-face {
+  font-family: "Quantum Bold";
+  src: url("fonts/Quantum Bold.otf")
+}
+@font-face {
+  font-family: "Point Soft Light";
+  src: url("fonts/Ndiscover - Point Soft DEMO Light.otf")
+}
+@font-face {
+  font-family: Autobus;
+  src: url("fonts/QanelasSoftDEMO-UltraLight.otf")
+}
+@font-face {
+  font-family: "Hanken Grotesk UltraLight";
+  src: url("fonts/HankenGrotesk-ExtraLight.otf")
+}
+@font-face {
+  font-family: "Hanken Grotesk Light";
+  src: url("fonts/HankenGrotesk-Light.otf");
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat-Regular.otf")
+}
+@font-face {
+  font-family: "Crimson";
+  src: url("fonts/Crimson-Semibold.otf")
+}
+@font-face {
+  font-family: "Open Sans Regular";
+  src: url("fonts/OpenSans-Regular.ttf")
+}
+@font-face {
+  font-family: "Open Sans Light";
+  src: url("fonts/OpenSans-Light.ttf")
+}
+@font-face {
+  font-family: "Open Sans Bold";
+  src: url("fonts/OpenSans-Bold.ttf")
+}
+@font-face {
+  font-family: "Open Sans Semibold";
+  src: url("fonts/OpenSans-SemiBold.ttf")
+}

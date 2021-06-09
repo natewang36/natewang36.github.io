@@ -1,0 +1,67 @@
+body {
+  background-image: url("images/noisier.png");
+}
+#bio_pic {
+  max-width:85%;
+  text-align:left;
+  margin: 0 auto;
+}
+#leftbox {
+  float:left;
+  margin-left:10%;
+  margin-right:-10%;
+  max-width:20%;
+  text-align:right;
+}
+#rightbox {
+  float:right;
+  margin-right:10%;
+  max-width:70%;
+}
+img {
+  max-width:80%;
+  float: right;
+}
+h1 {
+  margin-top: 5%;
+  color: #3493e0;
+  font-size: 3vw;
+  text-align: center;
+  font-family: "Open Sans SemiBold";
+
+  }
+h2 {
+  font-size: 1vw;
+  font-family: "Open Sans SemiBold";
+  margin: 0 auto;
+  margin-top: 1vw;
+  text-align: left;
+  padding-left: 15%;
+  padding-right: 15%;
+  color: black;
+  }
+h3 {
+  font-size: 1vw;
+  font-family: "Open Sans Light";
+  margin: 0 auto;
+  margin-top: 1vw;
+  text-align: left;
+  padding-left: 15%;
+  padding-right: 15%;
+  color: black;
+  }
+h4 {
+  font-size: 0.8vw;
+  font-family: "Open Sans Regular";
+  color: black
+  }
+footer {
+  color:black;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  margin-left:35%;
+}
+.separator {
+  clear:both;
+}
