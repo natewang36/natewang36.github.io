@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(to bottom, #2266aa, #6aa6e2);
+  background-image: linear-gradient(to right, #2266aa, #6aa6e2);
 }
 label {
     color: white;
@@ -26,7 +26,6 @@ h3 {
 }
 .button{
   border: 2px solid white;
-  background-image: transparent;
   border-radius: 0px;
   color: white;
   text-align: center;
@@ -44,7 +43,6 @@ h3 {
   background-image: linear-gradient(to left, black, black);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-decoration: bold;
   border: 2px solid transparent;
   border-image: linear-gradient(to left, black, black);
   border-image-slice: 1;
