@@ -1,7 +1,8 @@
   body {
     /* background-image: url("images/darkermapgoogledotscompressed.png"); */
     /* background-color: gray; */
-    background-image: linear-gradient(to bottom, #2266aa, #6aa6e2);
+    background-image: linear-gradient(to bottom, #6bc9ff, #f2ba00);
+    /* background-image: linear-gradient(to bottom, #2266aa, #6aa6e2); */
     background-repeat: repeat-y;
     background-size: cover;
     background-attachment: fixed;
@@ -77,7 +78,7 @@
     text-decoration: underline;
   }
   h1 {
-    color: white;
+    color: black;
     /* font-family: "Point Soft Light"; */
     font-family: "Open Sans Light";
     /* font-family: "Courier New",serif; */
@@ -88,7 +89,7 @@
     text-align: center;
     }
   h2 {
-      color: white;
+      color: black;
       /* font-family: "Point Soft Light"; */
       font-family: "Open Sans Light";
       /* font-family: "Courier New",serif; */
@@ -170,7 +171,7 @@
 
   a:hover {
     /* background-image: linear-gradient(to left, #ffd11a, #ff471a); */
-    background-image: linear-gradient(to left, black, black);
+    background-image: linear-gradient(to left, white, white);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-decoration: underline;
@@ -198,7 +199,7 @@
     top: 20em;
   }
   .emailbutton{
-    border: 2px solid white;
+    border: 2px solid black;
     background-image: transparent;
     border-radius: 0px;
     color: white;
@@ -214,12 +215,12 @@
   }
   .emailbutton:hover{
     /* background-image: linear-gradient(to left, #ffd11a, #ff471a); */
-    background-image: linear-gradient(to left, black, black);
+    background-image: linear-gradient(to left, white, white);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-decoration: bold;
     border: 2px solid transparent;
-    border-image: linear-gradient(to left, black, black);
+    border-image: linear-gradient(to left, white, white);
     border-image-slice: 1;
     border-width: 2px;
     border-radius: 8px;
@@ -241,8 +242,8 @@
       width: 15px;
       height: 15px;
       opacity: 0.6;
-      border-bottom: 2px solid white;
-      border-right: 2px solid white;
+      border-bottom: 2px solid black;
+      border-right: 2px solid black;
       transform: rotate(45deg);
       margin: -10px;
       animation: animate 3s infinite;
