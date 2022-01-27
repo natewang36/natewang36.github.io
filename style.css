@@ -1,7 +1,7 @@
   body {
     /* background-image: url("images/darkermapgoogledotscompressed.png"); */
     /* background-color: gray; */
-    background-image: linear-gradient(to bottom, #6bc9ff, #f2ba00);
+    background-image: linear-gradient(to bottom, #ead9ff, #6bc9ff);
     /* background-image: linear-gradient(to bottom, #2266aa, #6aa6e2); */
     background-repeat: repeat-y;
     background-size: cover;
@@ -58,7 +58,6 @@
       font-size: 5em;
       width: 95%;
       margin: 0 auto;
-      margin-top: 7vw;
       text-align: center;
     }
   .headtext {
@@ -234,7 +233,7 @@
   /*ARROW*/
   .arrow{
     position: absolute;
-    margin-left: 48.75%;
+    margin-left: 49.54%;
     transform: translate(-50%,-50%);
   }
   .arrow span{

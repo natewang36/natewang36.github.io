@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(to right, #2266aa, #6aa6e2);
+  background-image: linear-gradient(to left, #6bc9ff, #f2ba00);
 }
 label {
     color: white;
@@ -52,7 +52,7 @@ h3 {
 }
 .buttoncontainer{
   float: left;
-  margin-left: 42%;
+  margin-left: 20%;
 }
 .descriptioncontainer{
   margin: 0 auto;
