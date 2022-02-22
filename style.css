@@ -170,7 +170,7 @@
 
   a:hover {
     /* background-image: linear-gradient(to left, #ffd11a, #ff471a); */
-    background-image: linear-gradient(to left, white, white);
+    background-image: linear-gradient(to left, #529DEE, #529DEE);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-decoration: underline;
