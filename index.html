@@ -24,8 +24,10 @@ Here's where the real stuff starts -->
   <div id = "mainhello-desc" style="background-image: linear-gradient(to left, black, black);-webkit-background-clip: text;-webkit-text-fill-color: transparent;" class = 'text'>
   <br><br><br><br>
     <label>Nathan C. Wang</label>
-
+    <br>
+    <!-- <img src="images/newerbiopic.JPG" style="max-width:20%;max-height:auto;float: center;" class='text'> -->
   </div>
+
   <div id="centertext">
     <h1>Mechanical Engineering & Human Factors Engineering<br><a href="https://www.tufts.edu/" target="_blank">Tufts University</a> Class of 2023</h1>
   </div>
@@ -56,17 +58,65 @@ Here's where the real stuff starts -->
   </div> -->
       <!-- TABS -->
         <div id ="tabbar" class="tab">
-        <button class="tablinks" onclick="openCity(event, 'tab-schoolwork')" id="defaultOpen"><h3>School Work</h3></button>
-        <button class="tablinks" onclick="openCity(event, 'tab-personalwork')"><h3>Personal Work</h3></button>
+        <button class="tablinks" onclick="openCity(event, 'tab-schoolwork')" id="defaultOpen"><h3>College Engineering</h3></button>
+        <button class="tablinks" onclick="openCity(event, 'tab-personalwork')"><h3>High School Robotics</h3></button>
         <button class="tablinks" onclick="openCity(event, 'tab-graphicdesign')"><h3>Graphic Design</h3></button>
         <button class="tablinks" onclick="openCity(event, 'tab-other')"><h3>Other</h3></button>
       </div>
 
       <div id="tab-schoolwork" class="tabcontent">
-        <h4>School Work</h4>
+        <h4>Mechanical and Human Factors Engineering</h4>
+        <div id="descriptioncontainer">
+          <h6>My primary major is Mechanical Engineering. I have a particular interest in robotics, and am currently taking courses and building projects in this field. My second major is Human Factors Engineering, where I learn to apply user and product based research to increase the usability of a product.</h6>
+        </div>
+        <br><br>
         <div id = "dividerline-desc"></div>
+        <!-- Self-Balancing Robot -->
+        <h5>Self-Balancing Robot - Fall 2022</h5>
+          <div id="descriptioncontainer">
+            <h6>The first large project for a Robotics class was to create a self-balancing robot. The hardware was done using CAD and a MarkForged 3D printer and mounted onto a carbon fiber tube. The flywheel was cut out of half-inch aluminum using a water jet. Using a gyroscopic sensor, the mounted Arduino was able to control the flywheel and generate torque to correct orientation.</h6>
+            <div id = "shirtcontainer">
+              <img src="images/self-balancing-robot/front.jpeg" style="height:25em; image-orientation: from-image;">
+              <br>
+              <img src="images/self-balancing-robot/side.jpeg" style="height:15em; image-orientation: from-image;">
+              <img src="images/self-balancing-robot/flywheel.jpeg" style="height:15em; image-orientation: from-image;">
+              <img src="images/self-balancing-robot/clamped.jpeg" style="height:15em; image-orientation: from-image;">
+            </div>
+            <div id="shirtcontainer">
+              <iframe height="400em" src="https://www.youtube.com/embed/WzrNbg5F4-c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe height="400em" src="https://www.youtube.com/embed/n4B9PxTOmbg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        <br><br><br>
+          <br><br><div id = "dividerline-desc"></div>
+        <!-- Wooden Shelf -->
+        <h5>Wooden Shelf - Fall 2022</h5>
+          <div id="descriptioncontainer">
+            <h6>The first assignment of the Tufts ME Senior Design course was to create a wooden shelf. This was a way for us to learn to use the powertools available in the NOLOP and Bray Labs. My shelf is designed to be mounted on a wall, and has walls to prevent any items from falling off. I sketched up my dimensions and cut the 6.5"x48" board accordingly. The L-brackets were all using the miter saw and attached using countersunked wood screws. The large wall (part 3) was the hardest cut to make, as I had to cut down the length of 3 feet of wood at 45 degrees using a handheld Japanese saw. However, after sanding down the cut, it was able to fit into the rest of the shelf without any issues.</h6>
+            <div id = "shirtcontainer">
+              <img src="images/wood_shelf/shelf_4.jpeg" style="height:25em; image-orientation: from-image;">
+              <br>
+              <img src="images/wood_shelf/shelf_1.jpeg" style="height:15em; image-orientation: from-image;">
+              <img src="images/wood_shelf/shelf_2.jpeg" style="height:15em; image-orientation: from-image;">
+              <img src="images/wood_shelf/shelf_3.jpeg" style="height:15em; image-orientation: from-image;">
+            </div>
+          </div>
+        <br><br><br>
+          <br><br><div id = "dividerline-desc"></div>
+        <!-- Drawing Arm -->
+        <h5>Drawing Arm - Spring 2022</h5>
+          <div id="descriptioncontainer">
+            <h6>One major product for my robotics controls class was to fabricate and program a double-jointed arm with the ability to draw using a sharpie. This robot was able to write letters with the sharpie (albeit slowly), and was made using CAD-modelled 3D-printed parts, and programmed using Arduino and C++.</h6>
+            <div id = "shirtcontainer">
+              <img src="images/arm/sharpie-arm-1.jpg" style="height:15em; image-orientation: from-image;">
+              <img src="images/arm/sharpie-arm-2.jpg" style="height:15em; image-orientation: from-image;">
+              <img src="images/arm/sharpie-arm-3.jpg" style="height:15em; image-orientation: from-image;">
+            </div>
+          </div>
+        <br><br><br>
+          <br><br><div id = "dividerline-desc"></div>
         <!-- Spider-bot -->
-        <h5>Spider-bot</h5>
+        <h5>Spider-bot - Fall 2021</h5>
           <div id="descriptioncontainer">
             <h6>For the final project of my Electromechanical Systems & Robotics, groups were tasked with creating a robot that would reach the second floor of the Tufts Science and Engineering Center and high-five a professor. My group designed and fabricated a robot that would theoretically use drone motors to press itself against a wall and climb vertically (like a spider). While we could not get it to work within the time assigned, it was an interesting concept to test. We affectionately called our robot the Spider-bot, and added some thematic flair, like the spiderweb-shaped propellor covers.</h6>
             <div id = "shirtcontainer">
@@ -81,8 +131,8 @@ Here's where the real stuff starts -->
           </div>
         <br><br><br>
           <br><br><div id = "dividerline-desc"></div>
-          <!-- Spider-bot -->
-        <h5>Rolling tool-Box</h5>
+          <!-- Rolling tool-Box -->
+        <h5>Rolling Tool-Box - Fall 2021</h5>
           <div id="descriptioncontainer">
             <h6>I designed the Rolling Stool-box as a final design project for my Methods for Human Factors Engineering class. We were tasked with designing a product that could improve everyday life, and I decided to address young children roaming about their homes.
             The process included surveying, creating personas, analyzing work flow, anthropometrics, and CAD modeling. The final product is a stepped stool with wheels (that lock under weight, like a library stool) that children can drag around the house.
@@ -100,7 +150,7 @@ Here's where the real stuff starts -->
           </div>
           <br><br><div id = "dividerline-desc"></div>
         <!-- Beam Deflection -->
-        <h5>Beam Deflection and Design</h5>
+        <h5>Beam Deflection and Design - Fall 2021</h5>
           <div id="descriptioncontainer">
             <h6>The goal of this project was to design a C-bar that deflected exactly half an inch under a 200 lb force applied. The designing was done on SolidWorks, and it was checked mathematically using Castigliano's Theorem for analysis. The final product was fabricated and tested using an Instron testing machine in Bray Labs at Tufts University.</h6>
             <div id = "shirtcontainer">
@@ -112,7 +162,7 @@ Here's where the real stuff starts -->
         <br><br><br>
           <br><br><div id = "dividerline-desc"></div>
         <!-- Circuit Board Design -->
-        <h5>Robotics and Electromechanical Design</h5>
+        <h5>Circuit Board Design - Fall 2021</h5>
           <div id = "descriptioncontainer">
             <h6>My first project for my ME30: Electromechanical Systems and Robotics class was to design a power supply circuit board to convert 12V to 3.3V and 5V. This project was done with KiCAD, and I sent my design to be fabricated at OSH Park.</h6>
             <div id = "shirtcontainer" >
@@ -131,7 +181,7 @@ Here's where the real stuff starts -->
       <br><br><br>
         <br><br><div id = "dividerline-desc"></div>
         <!-- IoT -->
-        <h5>Internet of Things</h5>
+        <h5>Internet of Things - Summer 2020</h5>
           <div id = "descriptioncontainer">
             <h6>My first course after transferring to Tufts was "Engineering Sciences 93: Internet of Things". This course was taught remotely (due to the pandemic) during the summer of 2020, and each student worked with Arduinos to integrate hardware, online databases, and even augmented reality (using Vuforia).
               My final project involved using the materials I had in home to recreate a miniaturized version of the classic basketball arcade game with a live digital leaderboard.
@@ -148,7 +198,7 @@ Here's where the real stuff starts -->
             <br><br><br>
             <br><br><div id = "dividerline-desc"></div>
         <!-- Battleship -->
-        <h5>Battleship</h5>
+        <h5>Battleship - Spring 2020</h5>
           <div id = "descriptioncontainer">
             <h6>I worked with two classmates to create Battleship in Python as our final project for our intro CS class. The player places their own ships on the board, before playing against a computer algorithm that shoots "intelligently". This algorithm shoots at random until a ship is hit. Then, it shoots in the adjacent cells until it hits the same ship, then continues to shoot in that direction. If the ship isn't sunk, the algorithm switches to the opposite directions to finish it off. This project was made in PyCharm CE, and can be downloaded from GitHub <a href="https://github.com/haverfordcs/105project-wang-macky-afra" target="_blank">here</a>.<br><br>
             A video playthrough is shown below.</h6>
@@ -159,7 +209,7 @@ Here's where the real stuff starts -->
           <br><br><br>
           <br><br><div id = "dividerline-desc"></div>
         <!-- AdaArm -->
-        <h5>AdaArm</h5>
+        <h5>AdaArm - Fall 2019</h5>
           <div id = "descriptioncontainer">
             <h6>AdaArm was my final project for a Visual Studies class at Haverford College. We were meant to provide some social commentary with our projects, so I chose to create a robotic wooden arm as a first step towards normalizing "non-proper (two legs and two arms)" bodies. The professor posted my on her Instagram to advertise the class exhibition.</h6>
           </div>
@@ -169,9 +219,6 @@ Here's where the real stuff starts -->
             <img src="images/adaarm3.png" style="width:15em;height:22em; image-orientation: from-image;">
             <img src="images/adaarm4.png" style="width:15em;height:22em; image-orientation: from-image">
           </div>
-          <center>
-            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/B5niG19l4Vj/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/B5niG19l4Vj/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/B5niG19l4Vj/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Yvette Granata (@yvettegranata)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2019-12-03T16:54:07+00:00">Dec 3, 2019 at 8:54am PST</time></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
-          </center>
           <br>
           <br>
           <br>
@@ -180,7 +227,7 @@ Here's where the real stuff starts -->
       </div>
 
       <div id="tab-personalwork" class="tabcontent">
-        <h4>Personal Work</h4>
+        <h4>High School Robotics</h4>
         <div id = "dividerline-desc"></div>
         <!-- Aero IP -->
         <h5>Aerodynamics</h5>
@@ -363,7 +410,7 @@ Here's where the real stuff starts -->
     <div style="width: 50%; float: left; margin-top: 0; background: transparent; border-image: linear-gradient(to left, black, black); border-image-slice: 1; border-top: 3px dashed transparent;"id="dividerline-desc"></div>
     <h2 style="text-align: left; margin-left: 0vw; font-weight: normal;">
     Name: Nathan C. Wang (王一修)<br>
-    Age: 20<br>
+    Age: 21<br>
     Undergraduate: <a href="https://www.tufts.edu/ target="_blank"">Tufts University</a> - Medford, MA<br>
     High School: <a href="https://www.andover.edu/" target="_blank">Phillips Academy Andover</a> - Andover, MA<br>
     <br>
@@ -371,7 +418,7 @@ Here's where the real stuff starts -->
     <br>
     I spent my freshman year at <a href="https://www.haverford.edu/ target="_blank"">Haverford College</a> pursuing a degree in Physics, but successfully transferred to the Tufts University School of Engineering as a rising sophomore.
     <br>
-    At Tufts, I am double majoring in Mechanical Engineering and Human Factors Engineering. I find product design and robotics interesting, and want to learn more about improving the user experience.
+    At Tufts, I am double majoring in Mechanical Engineering and Human Factors Engineering. I find human robot interactions extremely interesting and am currently undertaking projects in that area.
   </h2>
   </div>
 </div>
